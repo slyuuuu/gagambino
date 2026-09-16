@@ -11,10 +11,10 @@ class DatabaseSeeder extends Seeder
     use WithoutModelEvents;
 
     /**
-     * Seed the application's database.
+     * Seed the application's database.x
      */
     public function run(): void
     {
-        Student::factory(2000)->create();
+        Student::factory(20)->create();
     }
 }
